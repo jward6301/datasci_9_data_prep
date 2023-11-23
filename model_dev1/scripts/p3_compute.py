@@ -3,8 +3,6 @@ import pickle
 import joblib
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import mean_squared_error, r2_score, classification_report, confusion_matrix
 
 
 # Indepdent Variables or predictors: All other columns except 'boro'

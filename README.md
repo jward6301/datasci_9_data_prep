@@ -18,7 +18,8 @@ HHA 507 Week 9 Assignment
 6. To clean the dataset, I will clean the column names by removing spaces, capitalized letters and special characters. I will also check for missing values and drop them as needed. I will then keep only the necessary columns and drop the remaining. I will also check the data types.
 7. Once all of the cleaning is completed, I will move onto transforming the data. I will do this by using ordinal encoding and mapping. On each encoding and mapping for the necessary columns, I will save the file to the `processed` folder. 
 8. Once that is complete, I will also save the whole encoded dataframe to the `processed` folder for possible future reference. 
-* The code was run through the python terminal
+* The code was run through the python terminal.
+* To view my code click here: https://github.com/jward6301/datasci_9_data_prep/blob/main/model_dev1/scripts/p2_transform.py
  
 
 ## 4. Dataset Splitting:
@@ -30,6 +31,7 @@ HHA 507 Week 9 Assignment
 `pickle.dump(X.columns, open('model_dev2/model/X_columns.sav', 'wb'))`
 `pickle.dump(scaler, open('model_dev2/model/scaler.sav', 'wb'))`.
 * The code was run through the python terminal
+* To view my code click here: https://github.com/jward6301/datasci_9_data_prep/blob/main/model_dev1/scripts/p3_compute.py
 ## 5. Errors and Issues
 * I ran into one error during the dataset splitting section. For `model_dev1`, I kept receving error codes that it could not convert string to float. This was fixed by loading each individual processed dataset rather than the whole processed dataset. 
 * The assignment utilzied code from Professor Williams. 
