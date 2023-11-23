@@ -34,7 +34,7 @@ X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, r
 
 (X_train.shape, X_val.shape, X_test.shape)
 
-# Saving the X_train
+# Saving it
 pickle.dump(X_train, open('model_dev2/model/X_train.sav', 'wb'))
 pickle.dump(X.columns, open('model_dev2/model/X_columns.sav', 'wb'))
 pickle.dump(scaler, open('model_dev2/model/scaler.sav', 'wb'))
